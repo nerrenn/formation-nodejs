@@ -1,0 +1,25 @@
+{
+  "name": "formation-nodejs",
+  "version": "1.0.0",
+  "description": "Formation Doranco du 27 au 03/03/2022 sur nodeJs/MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compiler": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerrenn/formation-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nerrenn/formation-nodejs/issues"
+  },
+  "homepage": "https://github.com/nerrenn/formation-nodejs#readme",
+  "devDependencies": {
+    "@types/node": "^18.14.2",
+    "typescript": "^4.9.5"
+  }
+}
