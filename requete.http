@@ -3,3 +3,35 @@ GET http://192.168.1.87:4646
 ###
 
 GET http://192.168.1.87:4646/hello
+
+
+###
+
+GET http://192.168.1.87:4646/eleves
+
+###
+
+GET http://192.168.1.87:4646/calc/add/17/18
+
+###
+
+GET http://192.168.1.87:4646/calc/sub/20/10
+
+###
+
+GET http://192.168.1.87:4646/calc/mul/15/3
+
+###
+
+GET http://192.168.1.87:4646/calc/div/40/0
+
+###
+
+POST http://192.168.1.87:4646/calculate
+operation: add
+Content-Type: application/json
+
+{
+    "x": 10,
+    "y": 8
+}
